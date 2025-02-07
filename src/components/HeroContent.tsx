@@ -25,11 +25,12 @@ function HeroContent() {
         </motion.div>
 
         <motion.p variants={slideInFromLeft(0.8)} className="text-lg text-gray-400 my-5 max-w-[600px]">
-          I am Soumik, a full stack web developer, learning more technologies day by day.
+          I am Soumik, a Full Stack Web Developer, learning more technologies day by day.
         </motion.p>
 
-        <motion.a variants={slideInFromLeft(1)} className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
-          Learn more
+        <motion.a href="https://drive.google.com/drive/folders/14UyLC6L9AaUFTnqPHGQKYDK9Hp1ydx2l" variants={slideInFromLeft(1)}
+        className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
+          My Resume
         </motion.a>
       </div>
 
