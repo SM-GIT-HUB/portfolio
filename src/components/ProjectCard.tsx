@@ -20,8 +20,8 @@ function ProjectCard({ src, title, description, link }: Props) {
 
       {
         link &&
-        <div className="opacity-0 group-hover:opacity-100 flex text-white absolute z-[90] h-full w-full inset-0 items-center justify-center bg-black/50 transition-all">
-          <Link href={link} target="blank" className="px-4 py-2 rounded-full border-[2px] border-white font-semibold hover:bg-white/5 transition-all">
+        <div className="opacity-0 group-hover:opacity-100 flex text-white absolute z-[20] h-full w-full inset-0 items-center justify-center bg-black/70 transition-all">
+          <Link href={link} target="_blank" className="px-4 py-2 rounded-full border-[2px] border-white font-semibold hover:bg-white/5 transition-all">
             <span className="tracking-[3px]">Visi</span>
             <span>t</span>
           </Link>

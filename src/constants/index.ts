@@ -219,3 +219,31 @@ export const myProjects = [
     link: "https://xcart.onrender.com/"
   }
 ]
+
+export const footerLinks = [
+  {
+    src: "/github.svg",
+    text: "GitHub",
+    link: "https://github.com/SM-GIT-HUB"
+  },
+  {
+    src: "/linkedin.svg",
+    text: "LinkedIn",
+    link: "https://www.linkedin.com/in/soumik-majumder-08033b306"
+  },
+  {
+    src: "/leetcode.svg",
+    text: "LeetCode",
+    link: "https://leetcode.com/soumikmajumder02"
+  },
+  {
+    src: "/gfg.svg",
+    text: "GFG",
+    link: "https://www.geeksforgeeks.org/user/soumik001"
+  },
+  {
+    src: "/code360.svg",
+    text: "Code360",
+    link: "https://www.naukri.com/code360/profile/02d9fb91-9136-4baa-84b1-9dd68157de6a"
+  }
+]

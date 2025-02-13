@@ -28,7 +28,7 @@ function Navbar() {
           {
             Socials.map((s) => (
               <Link href={s.link} key={s.name}>
-                <Image src={s.src} alt={s.name} key={s.name} width={24} height={24} className={`${s.name == "Leetcode" && "w-[21px] p-[2px] bg-white rounded-[2.5px]"}`} />
+                <Image src={s.src} alt={s.name} key={s.name} width={24} height={24}/>
               </Link>
             ))
           }
