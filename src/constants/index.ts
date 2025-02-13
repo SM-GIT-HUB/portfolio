@@ -192,3 +192,30 @@ export const Other_skill = [
     height: 60,
   }
 ]
+
+export const myProjects = [
+  {
+    src: "/project1.png",
+    title: "Ezitor",
+    description: "An online SAAS code editor for developers.",
+    link: "https://ezitor.vercel.app/"
+  },
+  {
+    src: "/project2.png",
+    title: "Let's chat",
+    description: "An online end to end chat application.",
+    link: "https://lets-chat-fjae.onrender.com/"
+  },
+  {
+    src: "/project3.png",
+    title: "Zwitter",
+    description: "A fullstack twitter/x clone.",
+    link: "https://zwitter-05h8.onrender.com/"
+  },
+  {
+    src: "/project4.png",
+    title: "XCart",
+    description: "An online shopping application.",
+    link: "https://xcart.onrender.com/"
+  }
+]

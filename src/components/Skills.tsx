@@ -4,7 +4,7 @@ import SkillsText from "./SkillsText"
 
 function Skills() {
   return (
-    <section id='skills' style={{transform: "scale(0.9"}} className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-20 z-[20]'>
+    <section id='skills' style={{transform: "scale(0.9"}} className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden z-[20]'>
       <SkillsText/>
 
       <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
