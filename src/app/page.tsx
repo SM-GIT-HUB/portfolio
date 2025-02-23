@@ -1,3 +1,4 @@
+import FirstTimes from "../components/FirstTimes";
 import Footer from "../components/Footer"
 import Hero from "../components/Hero"
 import Projects from "../components/Projects"
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <Hero/>
         <Skills/>
+        <FirstTimes/>
         <Projects/>
         <Footer/>
       </div>

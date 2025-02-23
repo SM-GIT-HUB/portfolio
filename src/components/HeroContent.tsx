@@ -28,7 +28,7 @@ function HeroContent() {
           I am Soumik, a Full Stack Web Developer, learning more technologies day by day.
         </motion.p>
 
-        <motion.a href="https://drive.google.com/drive/folders/14UyLC6L9AaUFTnqPHGQKYDK9Hp1ydx2l" variants={slideInFromLeft(1)}
+        <motion.a href="https://drive.google.com/drive/folders/14UyLC6L9AaUFTnqPHGQKYDK9Hp1ydx2l" target="_blank" variants={slideInFromLeft(1)}
         className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
           My Resume
         </motion.a>
