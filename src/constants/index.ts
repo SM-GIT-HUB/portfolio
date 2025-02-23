@@ -64,6 +64,30 @@ export const Skill_data = [
     Image: "/convex.png",
     width: 80,
     height: 80
+  },
+  {
+    skill_name: "Express js",
+    Image: "/express.png",
+    width: 80,
+    height: 80
+  },
+  {
+    skill_name: "Zustand",
+    Image: "/zustand-logo.png",
+    width: 100,
+    height: 100
+  },
+  {
+    skill_name: "Github",
+    Image: "/github.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "VS Code",
+    Image: "/vscode.svg",
+    width: 80,
+    height: 80,
   }
 ]
 
@@ -135,7 +159,7 @@ export const Frontend_skill = [
     height: 80
   },
   {
-    skill_name: "Next js 13",
+    skill_name: "Next js",
     Image: "/next.png",
     width: 80,
     height: 80
@@ -176,26 +200,32 @@ export const Backend_skill = [
 ]
 
 export const Full_stack = [
-  // {
-  //   skill_name: "Docker",
-  //   Image: "/docker.webp",
-  //   width: 70,
-  //   height: 70
-  // },
-  // {
-  //   skill_name: "Figma",
-  //   Image: "/figma.png",
-  //   width: 50,
-  //   height: 50
-  // }
+  {
+    skill_name: "Convex",
+    Image: "/convex.png",
+    width: 80,
+    height: 80
+  },
+  {
+    skill_name: "Next js",
+    Image: "/next.png",
+    width: 80,
+    height: 80
+  }
 ]
 
 export const Other_skill = [
   {
     skill_name: "Github",
     Image: "/github.svg",
-    width: 60,
-    height: 60,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "VS Code",
+    Image: "/vscode.svg",
+    width: 80,
+    height: 80,
   }
 ]
 
